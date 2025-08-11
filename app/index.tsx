@@ -126,7 +126,7 @@ export default function HomeScreen() {
           <View style={styles.content}>
             <View style={styles.logoContainer}>
               <Image 
-                source={require('../assets/images/logo-genium-light.png')} 
+                source={require('../assets/images/logo.png')} 
                 style={styles.logo} 
                 resizeMode="contain" 
               />
@@ -233,7 +233,7 @@ export default function HomeScreen() {
             )}
             
             <View style={styles.footer}>
-              <Text style={styles.footerText}>© 2025 GeniumApp</Text>
+              <Text style={styles.footerText}>© 2025 piaget</Text>
               <Text style={styles.footerSubtext}>Versão 1.0.0</Text>
             </View>
           </Animated.View>
@@ -310,7 +310,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
   },
   content: {
     flex: 1,
@@ -327,8 +326,8 @@ const styles = StyleSheet.create({
     zIndex: 10,
   },
   logo: {
-    width: 150,
-    height: 150,
+    width: 120,
+    height: 120,
   },
   welcomeContainer: {
     alignItems: 'center',

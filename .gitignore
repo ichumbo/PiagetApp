@@ -36,4 +36,15 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Sensitive files
+*.keystore
+*.jks
+credentials.json
+*.json
+!package.json
+!app.json
+!eas.json
+!tsconfig.json
+!eslint.config.js
+
 app-example
